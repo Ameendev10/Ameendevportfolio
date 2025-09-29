@@ -13,19 +13,19 @@
 <body>
   <header>
     <nav class="navbar">
-    <div class="logo">Ameendev</div>
+    <div class="logo"><a href="#home">Ameendev</a></div>
     <!-- <input type="checkbox" id="menu-toggle"> -->
     <label for="menu-toggle" class="menu-icon">&#9776;</label>
     <ul class="nav-links">
       <li><a href="#home">Home</a></li>
-      <li><a href="#work">Work</a></li>
-      <li><a href="#info">Info</a></li>
-      <li><a href="#services">Services</a></li>
+      <li><a href="#info">Info</a>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
       <li><a href="#contact">Contact Me</a></li>
     </ul>
   </nav>
   </header>
-  <section class="hero">
+  <section class="hero" id="home">
     <div class="container">
       <a href=""><img src="./images/logo2.jpg" alt="logo"></a>
       <h1>Ameendev</h1>
@@ -34,7 +34,7 @@
     </div>
   </section>
 
-  <section class="about" id="Info">
+  <section class="about" id="info">
     <div class="container1">
       <h2>About Me</h2>
       <p>Hi! I'm Ariyo Al-ameen, a Passionate Full-Stack Web Developer with years of experience building fast, responsive, modern and scalable web applications.
@@ -45,7 +45,7 @@
     </div>
   </section>
 
-  <section class="skills" id="Skills">
+  <section class="skills" id="skills">
     <div class="skills-container">
       <h2>Skills</h2>
        <div class="skills__content grid">
@@ -86,9 +86,9 @@
     </div>
   </section>
 
-  <section class="projects" id="Work">
+  <section class="projects" id="projects">
     <div class="container">
-      <h2 id="Projects">Projects</h2>
+      <h2>Projects</h2>
     <div class="project-grid">
         <div class="project-card">Portfolio Website</div>
         <div class="project-card">E-commerce Store</div>
@@ -104,16 +104,16 @@
                     <div class="form-row">
                         <div class="form-group">
                             <label for="name">Name</label>
-                            <input type="text" id="name" placeholder="Your Name">
+                            <input type="text" id="name" placeholder="Your Name" required>
                         </div>
                         <div class="form-group">
                             <label for="email">Email</label>
-                            <input type="email" id="email" placeholder="Your Email">
+                            <input type="email" id="email" placeholder="Your Email" required>
                         </div>
                     </div>
                     <div class="form-group">
                         <label for="message">Message</label>
-                        <textarea id="message" rows="5" placeholder="Type your message..."></textarea>
+                        <textarea id="message" rows="5" placeholder="Type your message..." required></textarea>
                     </div>
                     <button type="submit" class="send-btn">Send Message</button>
                 </form>

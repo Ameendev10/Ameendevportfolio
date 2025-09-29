@@ -33,6 +33,10 @@ header{
   font-size: 20px;
 }
 
+.logo{
+    color: white;
+    text-decoration: none;
+}
 .nav-links {
   list-style: none;
   display: flex;
