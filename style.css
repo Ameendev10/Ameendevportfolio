@@ -33,7 +33,7 @@ header{
   font-size: 20px;
 }
 
-.logo{
+.logo a{
     color: white;
     text-decoration: none;
 }
@@ -276,21 +276,21 @@ textarea {
   resize: none;
 }
 
-.send-btn {
-  display: block;
-  margin: 30px auto 0;
-  background-color: #4dd0e1;
-  color: white;
-  padding: 12px 30px;
-  font-size: 16px;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: background 0.3s ease;
-}
 
-.send-btn:hover {
-  background-color: #0097a7;
+.send-btn {
+    display: block;
+    margin: 30px auto 0;
+    background-color: #4dd0e1;
+    color: white;
+    padding: 15px 0px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+.send-btn:hover{
+    background-color: #0097a7;
 }
 .contact-social {
   grid-template-columns: repeat(4, max-content);
