@@ -99,7 +99,7 @@ body {
   line-height: 1.6;
 }
 
-.container a img{
+.container img{
     width: 80px;
 }
 
@@ -180,6 +180,7 @@ section {
 h2 {
   font-size: 2rem;
   margin-bottom: 1rem;
+  color: whitesmoke;
 }
 
 .skills{
@@ -192,6 +193,9 @@ h2 {
 
 .skills h2{
    color: #f9f9f9;
+}
+.html{
+    width: 70px;
 }
 .skills__img {
   width: 30px;
@@ -309,7 +313,11 @@ textarea {
 .contact-social-link i {
   font-size: 1.5rem;
   color: #fff;
+  transition: color 0.4s;
   /* gap: 10em; */
+}
+.contact-social-link i:hover {
+  color: goldenrod;
 }
 .contact-social-link span {
   font-size: 1em;
@@ -341,8 +349,13 @@ textarea {
   color: white;
   text-decoration: none;
   font-size: 14px;
+  font-weight: bold;
+   transform: color 0.4s;
 }
-
+.bottom-links a:hover {
+  color: gold;
+ 
+}
 .footer-brand {
   font-weight: bold;
   padding: 10px 0;
